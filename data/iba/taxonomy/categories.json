@@ -1,0 +1,12 @@
+[
+  { "id": "spirits", "nameZh": "基酒 / 蒸馏酒", "nameEn": "Spirits", "parentId": null, "sortOrder": 10, "active": 1 },
+  { "id": "liqueurs", "nameZh": "利口酒", "nameEn": "Liqueurs", "parentId": null, "sortOrder": 20, "active": 1 },
+  { "id": "wine_fortified", "nameZh": "葡萄酒与加强酒", "nameEn": "Wine & Fortified", "parentId": null, "sortOrder": 30, "active": 1 },
+  { "id": "beer", "nameZh": "啤酒", "nameEn": "Beer", "parentId": null, "sortOrder": 40, "active": 1 },
+  { "id": "bitters", "nameZh": "苦精", "nameEn": "Bitters", "parentId": null, "sortOrder": 50, "active": 1 },
+  { "id": "juice_fruit", "nameZh": "果汁与水果", "nameEn": "Juice & Fruit", "parentId": null, "sortOrder": 60, "active": 1 },
+  { "id": "syrups_sweeteners", "nameZh": "糖浆与甜味剂", "nameEn": "Syrups & Sweeteners", "parentId": null, "sortOrder": 70, "active": 1 },
+  { "id": "carbonated_mixers", "nameZh": "碳酸与其他调和材料", "nameEn": "Carbonated & Mixers", "parentId": null, "sortOrder": 80, "active": 1 },
+  { "id": "herbs_garnish", "nameZh": "香草、香料与装饰", "nameEn": "Herbs, Spices & Garnish", "parentId": null, "sortOrder": 90, "active": 1 },
+  { "id": "other", "nameZh": "其他", "nameEn": "Other", "parentId": null, "sortOrder": 100, "active": 1 }
+]

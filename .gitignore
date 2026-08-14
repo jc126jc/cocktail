@@ -1,0 +1,39 @@
+node_modules/
+dist/
+build/
+.turbo/
+.tools/
+*.log
+.env
+.env.*
+!.env.example
+.env.local
+.DS_Store
+Thumbs.db
+
+# Runtime SQLite (TECH_SPEC §5 / §11)
+data/app.sqlite
+data/app.sqlite-*
+
+# Vite
+apps/web/dist/
+*.local
+*.tsbuildinfo
+
+# Coverage / test
+coverage/
+**/__tests__/
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+
+# Local IDE / OS
+*.swp
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# Empty local placeholders (not part of the product)
+/prototype/
+/tests/

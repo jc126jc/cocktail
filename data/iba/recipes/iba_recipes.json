@@ -1,0 +1,5335 @@
+[
+  {
+    "id": "iba-negroni",
+    "importKind": "new_recipe",
+    "nameZh": "内格罗尼",
+    "nameEn": "Negroni",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "bitter",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Orange slice",
+    "steps": [
+      "Stir with ice",
+      "Strain into glass",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Campari",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ],
+    "editorRecommended": true,
+    "recommendationOrder": 1
+  },
+  {
+    "id": "iba-old-fashioned",
+    "importKind": "new_recipe",
+    "nameZh": "古典鸡尾酒",
+    "nameEn": "Old Fashioned",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "old_fashioned",
+    "flavorTagIds": [
+      "sweet",
+      "bitter"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Orange twist",
+    "steps": [
+      "Muddle sugar with bitters",
+      "Add whiskey and ice",
+      "Stir",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Whiskey",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "whiskey_style"
+      },
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "whiskey_style"
+      },
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "whiskey_style"
+      },
+      {
+        "sourceName": "Sugar",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      },
+      {
+        "sourceName": "Water",
+        "amountMl": 5,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Orange Peel",
+        "amountMl": null,
+        "role": "garnish"
+      }
+    ],
+    "editorRecommended": true,
+    "recommendationOrder": 2
+  },
+  {
+    "id": "iba-dry-martini",
+    "importKind": "new_recipe",
+    "nameZh": "干马天尼",
+    "nameEn": "Dry Martini",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "dry",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Olive or lemon twist",
+    "steps": [
+      "Stir with ice",
+      "Strain",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Dry Vermouth",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Olive",
+        "amountMl": null,
+        "role": "garnish"
+      }
+    ],
+    "editorRecommended": true,
+    "recommendationOrder": 3
+  },
+  {
+    "id": "iba-manhattan",
+    "importKind": "new_recipe",
+    "nameZh": "曼哈顿",
+    "nameEn": "Manhattan",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "sweet",
+      "bitter"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Cherry",
+    "steps": [
+      "Stir with ice",
+      "Strain",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 50,
+        "role": "either",
+        "eitherGroupId": "manhattan_whiskey"
+      },
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 50,
+        "role": "either",
+        "eitherGroupId": "manhattan_whiskey"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cherry",
+        "amountMl": null,
+        "role": "garnish"
+      }
+    ]
+  },
+  {
+    "id": "iba-daiquiri",
+    "importKind": "new_recipe",
+    "nameZh": "戴克瑞",
+    "nameEn": "Daiquiri",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 10,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-whiskey-sour",
+    "importKind": "new_recipe",
+    "nameZh": "威士忌酸",
+    "nameEn": "Whiskey Sour",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Cherry and orange",
+    "steps": [
+      "Shake with ice",
+      "Strain",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "ws_whiskey"
+      },
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "ws_whiskey"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 25,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 20,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-margarita",
+    "importKind": "new_recipe",
+    "nameZh": "玛格丽特",
+    "nameEn": "Margarita",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "daisy",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Salt rim",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Tequila",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Salt",
+        "amountMl": null,
+        "role": "garnish"
+      }
+    ]
+  },
+  {
+    "id": "iba-moscow-mule",
+    "importKind": "new_recipe",
+    "nameZh": "莫斯科骡子",
+    "nameEn": "Moscow Mule",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "spicy",
+      "sour"
+    ],
+    "glassware": "Mug",
+    "garnish": "Lime wedge",
+    "steps": [
+      "Build over ice",
+      "Stir gently"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Ginger Beer",
+        "amountMl": 120,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-mojito",
+    "importKind": "new_recipe",
+    "nameZh": "莫吉托",
+    "nameEn": "Mojito",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "herbal",
+      "sour"
+    ],
+    "glassware": "Highball",
+    "garnish": "Mint sprig",
+    "steps": [
+      "Muddle mint with sugar and lime",
+      "Add rum and ice",
+      "Top with soda",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Mint",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-americano",
+    "importKind": "new_recipe",
+    "nameZh": "美洲诺",
+    "nameEn": "Americano",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "bitter",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Orange slice",
+    "steps": [
+      "Build with ice",
+      "Top with soda"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Campari",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-aviation",
+    "importKind": "new_recipe",
+    "nameZh": "航空",
+    "nameEn": "Aviation",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "floral",
+      "sour"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Cherry",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Crème de Violette",
+        "amountMl": 5,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-between-the-sheets",
+    "importKind": "new_recipe",
+    "nameZh": "床单之间",
+    "nameEn": "Between the Sheets",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cognac",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-boulevardier",
+    "importKind": "new_recipe",
+    "nameZh": "林荫大道",
+    "nameEn": "Boulevardier",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "bitter",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Orange twist",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 30,
+        "role": "either",
+        "eitherGroupId": "blvd_whiskey"
+      },
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 30,
+        "role": "either",
+        "eitherGroupId": "blvd_whiskey"
+      },
+      {
+        "sourceName": "Campari",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-casino",
+    "importKind": "new_recipe",
+    "nameZh": "赌场",
+    "nameEn": "Casino",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Lemon twist and cherry",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Bitters",
+        "amountMl": 2,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 10,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-clover-club",
+    "importKind": "new_recipe",
+    "nameZh": "三叶草俱乐部",
+    "nameEn": "Clover Club",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Raspberry syrup",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 20,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-gin-fizz",
+    "importKind": "new_recipe",
+    "nameZh": "金菲士",
+    "nameEn": "Gin Fizz",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "collins_fizz",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "",
+    "steps": [
+      "Shake",
+      "Strain into glass",
+      "Top with soda"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 80,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-john-collins",
+    "importKind": "new_recipe",
+    "nameZh": "约翰柯林斯",
+    "nameEn": "John Collins",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "collins_fizz",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lemon and cherry",
+    "steps": [
+      "Build or shake",
+      "Top with soda"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 60,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-last-word",
+    "importKind": "new_recipe",
+    "nameZh": "遗言",
+    "nameEn": "Last Word",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "herbal",
+      "sour"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Green Chartreuse",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-martinez",
+    "importKind": "new_recipe",
+    "nameZh": "马丁内斯",
+    "nameEn": "Martinez",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "sweet",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-mary-pickford",
+    "importKind": "new_recipe",
+    "nameZh": "玛丽·皮克福德",
+    "nameEn": "Mary Pickford",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Pineapple Juice",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 7.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-monkey-gland",
+    "importKind": "new_recipe",
+    "nameZh": "猴腺",
+    "nameEn": "Monkey Gland",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "fruity",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Absinthe",
+        "amountMl": 5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-paradise",
+    "importKind": "new_recipe",
+    "nameZh": "天堂",
+    "nameEn": "Paradise",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Apricot Brandy",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-planters-punch",
+    "importKind": "new_recipe",
+    "nameZh": "种植园宾治",
+    "nameEn": "Planter's Punch",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "fruity",
+      "sour"
+    ],
+    "glassware": "Highball",
+    "garnish": "Orange and cherry",
+    "steps": [
+      "Shake or build",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 35,
+        "role": "required"
+      },
+      {
+        "sourceName": "Pineapple Juice",
+        "amountMl": 35,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-porto-flip",
+    "importKind": "new_recipe",
+    "nameZh": "波特翻转",
+    "nameEn": "Porto Flip",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "flip",
+    "flavorTagIds": [
+      "sweet",
+      "creamy"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Grated nutmeg",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Brandy",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Port",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg Yolk",
+        "amountMl": 10,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-ramos-fizz",
+    "importKind": "new_recipe",
+    "nameZh": "拉莫斯菲士",
+    "nameEn": "Ramos Fizz",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "collins_fizz",
+    "flavorTagIds": [
+      "creamy",
+      "floral"
+    ],
+    "glassware": "Highball",
+    "garnish": "",
+    "steps": [
+      "Dry shake",
+      "Shake with ice",
+      "Strain",
+      "Top with soda"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cream",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Flower Water",
+        "amountMl": 3,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-rusty-nail",
+    "importKind": "new_recipe",
+    "nameZh": "锈钉",
+    "nameEn": "Rusty Nail",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "sweet",
+      "herbal"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Build over ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Scotch Whisky",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Drambuie",
+        "amountMl": 25,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-sazerac",
+    "importKind": "new_recipe",
+    "nameZh": "萨泽拉克",
+    "nameEn": "Sazerac",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "old_fashioned",
+    "flavorTagIds": [
+      "herbal",
+      "spicy"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Lemon peel",
+    "steps": [
+      "Rinse glass with absinthe",
+      "Stir whiskey with sugar and bitters",
+      "Strain",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Cognac",
+        "amountMl": 50,
+        "role": "either",
+        "eitherGroupId": "sazerac_base"
+      },
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 50,
+        "role": "either",
+        "eitherGroupId": "sazerac_base"
+      },
+      {
+        "sourceName": "Absinthe",
+        "amountMl": 5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sugar",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Peychaud's Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-sidecar",
+    "importKind": "new_recipe",
+    "nameZh": "边车",
+    "nameEn": "Sidecar",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Sugar rim optional",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Cognac",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-stinger",
+    "importKind": "new_recipe",
+    "nameZh": "毒刺",
+    "nameEn": "Stinger",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "herbal",
+      "sweet"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Cognac",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Crème de Menthe",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-tuxedo",
+    "importKind": "new_recipe",
+    "nameZh": "燕尾服",
+    "nameEn": "Tuxedo",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "dry",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Cherry and lemon twist",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Dry Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Absinthe",
+        "amountMl": 2,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-white-lady",
+    "importKind": "new_recipe",
+    "nameZh": "白女士",
+    "nameEn": "White Lady",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-angel-face",
+    "importKind": "new_recipe",
+    "nameZh": "天使颜",
+    "nameEn": "Angel Face",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Apricot Brandy",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Calvados",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-brandy-crusta",
+    "importKind": "new_recipe",
+    "nameZh": "白兰地克拉斯塔",
+    "nameEn": "Brandy Crusta",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Wine glass",
+    "garnish": "Sugar rim, lemon spiral",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Brandy",
+        "amountMl": 52.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 7.5,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 5,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-hanky-panky",
+    "importKind": "new_recipe",
+    "nameZh": "汉基潘基",
+    "nameEn": "Hanky Panky",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "herbal",
+      "bitter"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Orange twist",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Fernet Branca",
+        "amountMl": 7.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-bloody-mary",
+    "importKind": "new_recipe",
+    "nameZh": "血腥玛丽",
+    "nameEn": "Bloody Mary",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "savory",
+      "spicy"
+    ],
+    "glassware": "Highball",
+    "garnish": "Celery / lemon",
+    "steps": [
+      "Build or roll",
+      "Season to taste"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Tomato Juice",
+        "amountMl": 90,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Worcestershire Sauce",
+        "amountMl": 3,
+        "role": "required"
+      },
+      {
+        "sourceName": "Tabasco",
+        "amountMl": 2,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Salt",
+        "amountMl": null,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Black Pepper",
+        "amountMl": null,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-cosmopolitan",
+    "importKind": "new_recipe",
+    "nameZh": "大都会",
+    "nameEn": "Cosmopolitan",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "fruity",
+      "sour"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Orange twist",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cranberry Juice",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-cuba-libre",
+    "importKind": "new_recipe",
+    "nameZh": "自由古巴",
+    "nameEn": "Cuba Libre",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime wedge",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cola",
+        "amountMl": 120,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 10,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-french-75",
+    "importKind": "new_recipe",
+    "nameZh": "法式75",
+    "nameEn": "French 75",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "collins_fizz",
+    "flavorTagIds": [
+      "sour",
+      "dry"
+    ],
+    "glassware": "Champagne flute",
+    "garnish": "",
+    "steps": [
+      "Shake spirits with ice",
+      "Strain",
+      "Top with champagne"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Champagne",
+        "amountMl": 60,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-harvey-wallbanger",
+    "importKind": "new_recipe",
+    "nameZh": "哈维撞墙",
+    "nameEn": "Harvey Wallbanger",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Orange slice",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Galliano",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 90,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-hemingway-special",
+    "importKind": "new_recipe",
+    "nameZh": "海明威特调",
+    "nameEn": "Hemingway Special",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grapefruit Juice",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-horses-neck",
+    "importKind": "new_recipe",
+    "nameZh": "马颈",
+    "nameEn": "Horse's Neck",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "spicy",
+      "dry"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lemon spiral",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Cognac",
+        "amountMl": 40,
+        "role": "either",
+        "eitherGroupId": "horses_base"
+      },
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 40,
+        "role": "either",
+        "eitherGroupId": "horses_base"
+      },
+      {
+        "sourceName": "Ginger Beer",
+        "amountMl": 120,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-irish-coffee",
+    "importKind": "new_recipe",
+    "nameZh": "爱尔兰咖啡",
+    "nameEn": "Irish Coffee",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "sweet",
+      "smoky"
+    ],
+    "glassware": "Irish coffee glass",
+    "garnish": "Cream float",
+    "steps": [
+      "Add whiskey and sugar to coffee",
+      "Float cream"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Irish Whiskey",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Coffee",
+        "amountMl": 80,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sugar",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cream",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-kir",
+    "importKind": "new_recipe",
+    "nameZh": "基尔",
+    "nameEn": "Kir",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "fruity",
+      "dry"
+    ],
+    "glassware": "Wine glass",
+    "garnish": "",
+    "steps": [
+      "Add crème de cassis",
+      "Top with white wine"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Crème de Cassis",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "White Wine",
+        "amountMl": 90,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-long-island",
+    "importKind": "new_recipe",
+    "nameZh": "长岛冰茶",
+    "nameEn": "Long Island Iced Tea",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lemon",
+    "steps": [
+      "Build over ice",
+      "Top with cola"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Tequila",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "White Rum",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Gin",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 25,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cola",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-mai-tai",
+    "importKind": "new_recipe",
+    "nameZh": "迈泰",
+    "nameEn": "Mai Tai",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "fruity",
+      "nutty"
+    ],
+    "glassware": "Old Fashioned / Tiki",
+    "garnish": "Mint and lime",
+    "steps": [
+      "Shake with ice",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orgeat",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-mimosa",
+    "importKind": "new_recipe",
+    "nameZh": "含羞草",
+    "nameEn": "Mimosa",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "fruity",
+      "dry"
+    ],
+    "glassware": "Flute",
+    "garnish": "",
+    "steps": [
+      "Build in flute"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 75,
+        "role": "required"
+      },
+      {
+        "sourceName": "Champagne",
+        "amountMl": 75,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-mint-julep",
+    "importKind": "new_recipe",
+    "nameZh": "薄荷朱利普",
+    "nameEn": "Mint Julep",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "julep_smash",
+    "flavorTagIds": [
+      "herbal",
+      "sweet"
+    ],
+    "glassware": "Julep cup",
+    "garnish": "Mint",
+    "steps": [
+      "Muddle mint with sugar",
+      "Add bourbon and crushed ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Mint",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sugar",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Water",
+        "amountMl": 5,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-pina-colada",
+    "importKind": "new_recipe",
+    "nameZh": "椰林飘香",
+    "nameEn": "Piña Colada",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "fruity",
+      "creamy"
+    ],
+    "glassware": "Pocillo / Hurricane",
+    "garnish": "Pineapple and cherry",
+    "steps": [
+      "Blend or shake with ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Coconut Cream",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Pineapple Juice",
+        "amountMl": 50,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-pisco-sour",
+    "importKind": "new_recipe",
+    "nameZh": "皮斯科酸",
+    "nameEn": "Pisco Sour",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "herbal"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Angostura dashes",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Pisco",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "garnish"
+      }
+    ]
+  },
+  {
+    "id": "iba-sea-breeze",
+    "importKind": "new_recipe",
+    "nameZh": "海风",
+    "nameEn": "Sea Breeze",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "sour"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cranberry Juice",
+        "amountMl": 120,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grapefruit Juice",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-sex-on-the-beach",
+    "importKind": "new_recipe",
+    "nameZh": "性感海滩",
+    "nameEn": "Sex on the Beach",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Orange",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Peach Schnapps",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cranberry Juice",
+        "amountMl": 40,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-singapore-sling",
+    "importKind": "new_recipe",
+    "nameZh": "新加坡司令",
+    "nameEn": "Singapore Sling",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "fruity",
+      "herbal"
+    ],
+    "glassware": "Hurricane",
+    "garnish": "Pineapple and cherry",
+    "steps": [
+      "Shake with ice",
+      "Strain over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cherry Heering",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Bénédictine",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Pineapple Juice",
+        "amountMl": 120,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-tequila-sunrise",
+    "importKind": "new_recipe",
+    "nameZh": "龙舌兰日出",
+    "nameEn": "Tequila Sunrise",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Orange and cherry",
+    "steps": [
+      "Build over ice",
+      "Float grenadine"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Tequila",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 90,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-vesper",
+    "importKind": "new_recipe",
+    "nameZh": "维斯珀",
+    "nameEn": "Vesper",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "dry",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Lemon zest",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Vodka",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lillet Blanc",
+        "amountMl": 7.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-zombie",
+    "importKind": "new_recipe",
+    "nameZh": "僵尸",
+    "nameEn": "Zombie",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "fruity",
+      "spicy"
+    ],
+    "glassware": "Tall glass",
+    "garnish": "Mint",
+    "steps": [
+      "Blend or shake with ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Gold Rum",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Overproof Rum",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Falernum",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      },
+      {
+        "sourceName": "Absinthe",
+        "amountMl": 5,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-espresso-martini",
+    "importKind": "new_recipe",
+    "nameZh": "浓缩咖啡马天尼",
+    "nameEn": "Espresso Martini",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "bitter",
+      "sweet"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Coffee beans",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Coffee Liqueur",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Espresso",
+        "amountMl": 25,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 5,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-paper-plane",
+    "importKind": "new_recipe",
+    "nameZh": "纸飞机",
+    "nameEn": "Paper Plane",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "bitter",
+      "sour"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Aperol",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Amaro Nonino",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-penicillin",
+    "importKind": "new_recipe",
+    "nameZh": "青霉素",
+    "nameEn": "Penicillin",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "smoky",
+      "sour"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Candied ginger",
+    "steps": [
+      "Shake",
+      "Strain over ice",
+      "Float Islay Scotch"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Scotch Whisky",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Honey Syrup",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Fresh Ginger",
+        "amountMl": null,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-tommy-margarita",
+    "importKind": "new_recipe",
+    "nameZh": "汤米玛格丽特",
+    "nameEn": "Tommy's Margarita",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "daisy",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Lime",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Tequila",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Agave Syrup",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-naked-and-famous",
+    "importKind": "new_recipe",
+    "nameZh": "裸与名流",
+    "nameEn": "Naked and Famous",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "smoky",
+      "bitter"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Mezcal",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Yellow Chartreuse",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Aperol",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-illegal",
+    "importKind": "new_recipe",
+    "nameZh": "非法",
+    "nameEn": "Illegal",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "smoky",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Mezcal",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Overproof Rum",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Maraschino Liqueur",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 20,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-spicy-fifty",
+    "importKind": "new_recipe",
+    "nameZh": "辣五十",
+    "nameEn": "Spicy Fifty",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "spicy",
+      "fruity"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Red chili",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Elderflower Liqueur",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Honey Syrup",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Fresh Chili",
+        "amountMl": null,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-bramble",
+    "importKind": "new_recipe",
+    "nameZh": "荆棘",
+    "nameEn": "Bramble",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "fruity",
+      "sour"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Blackberry and lemon",
+    "steps": [
+      "Build over crushed ice",
+      "Drizzle crème de mûre"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 25,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 12.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Crème de Mûre",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-dark-n-stormy",
+    "importKind": "new_recipe",
+    "nameZh": "黑暗与风暴",
+    "nameEn": "Dark ’n’ Stormy",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "spicy",
+      "sour"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Ginger Beer",
+        "amountMl": 100,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 10,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-caipirinha",
+    "importKind": "new_recipe",
+    "nameZh": "卡皮利尼亚",
+    "nameEn": "Caipirinha",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Muddle lime with sugar",
+      "Add cachaça and ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Cachaça",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sugar",
+        "amountMl": null,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-bellini",
+    "importKind": "new_recipe",
+    "nameZh": "贝里尼",
+    "nameEn": "Bellini",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Flute",
+    "garnish": "",
+    "steps": [
+      "Build in flute"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Prosecco",
+        "amountMl": 100,
+        "role": "required"
+      },
+      {
+        "sourceName": "White Peach Puree",
+        "amountMl": 50,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-black-russian",
+    "importKind": "new_recipe",
+    "nameZh": "黑俄罗斯",
+    "nameEn": "Black Russian",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "sweet",
+      "bitter"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Coffee Liqueur",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-white-russian",
+    "importKind": "new_recipe",
+    "nameZh": "白俄罗斯",
+    "nameEn": "White Russian",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "creamy",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Build over ice",
+      "Float cream"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Coffee Liqueur",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cream",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-spritz",
+    "importKind": "new_recipe",
+    "nameZh": "斯普里茨",
+    "nameEn": "Spritz",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "spritz_cobbler",
+    "flavorTagIds": [
+      "bitter",
+      "dry"
+    ],
+    "glassware": "Wine glass",
+    "garnish": "Orange slice",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Aperol",
+        "amountMl": 90,
+        "role": "either",
+        "eitherGroupId": "spritz_bitter"
+      },
+      {
+        "sourceName": "Campari",
+        "amountMl": 90,
+        "role": "either",
+        "eitherGroupId": "spritz_bitter"
+      },
+      {
+        "sourceName": "Prosecco",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-gin-tonic",
+    "importKind": "new_recipe",
+    "nameZh": "金汤力",
+    "nameEn": "Gin and Tonic",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "dry",
+      "herbal"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime wedge",
+    "steps": [
+      "Build over ice",
+      "Stir gently"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Tonic Water",
+        "amountMl": 120,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 5,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-screwdriver",
+    "importKind": "new_recipe",
+    "nameZh": "螺丝刀",
+    "nameEn": "Screwdriver",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Orange slice",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 100,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-gimlet",
+    "importKind": "new_recipe",
+    "nameZh": "吉姆雷特",
+    "nameEn": "Gimlet",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "dry"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 10,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-tom-collins",
+    "importKind": "new_recipe",
+    "nameZh": "汤姆柯林斯",
+    "nameEn": "Tom Collins",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "collins_fizz",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lemon and cherry",
+    "steps": [
+      "Build or shake",
+      "Top with soda"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Old Tom Gin",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "collins_gin"
+      },
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "collins_gin"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 60,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-rob-roy",
+    "importKind": "new_recipe",
+    "nameZh": "罗布罗伊",
+    "nameEn": "Rob Roy",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "sweet",
+      "smoky"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Cherry",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Scotch Whisky",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-paloma",
+    "importKind": "new_recipe",
+    "nameZh": "帕洛玛",
+    "nameEn": "Paloma",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime wedge",
+    "steps": [
+      "Build over ice",
+      "Top with grapefruit soda"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Tequila",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grapefruit Soda",
+        "amountMl": 100,
+        "role": "required"
+      },
+      {
+        "sourceName": "Salt",
+        "amountMl": null,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-amaretto-sour",
+    "importKind": "new_recipe",
+    "nameZh": "杏仁酸",
+    "nameEn": "Amaretto Sour",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "nutty"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Cherry and orange",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Amaretto",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 25,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 10,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 20,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-godfather",
+    "importKind": "new_recipe",
+    "nameZh": "教父",
+    "nameEn": "Godfather",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "sweet",
+      "nutty"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Build over ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Scotch Whisky",
+        "amountMl": 35,
+        "role": "required"
+      },
+      {
+        "sourceName": "Amaretto",
+        "amountMl": 35,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-grasshopper",
+    "importKind": "new_recipe",
+    "nameZh": "蚱蜢",
+    "nameEn": "Grasshopper",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "sweet",
+      "creamy"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Crème de Menthe",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Crème de Cacao",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cream",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-brandy-alexander",
+    "importKind": "new_recipe",
+    "nameZh": "白兰地亚历山大",
+    "nameEn": "Brandy Alexander",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "sweet",
+      "creamy"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Nutmeg",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Cognac",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Crème de Cacao",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cream",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-corpse-reviver-2",
+    "importKind": "new_recipe",
+    "nameZh": "起尸酒二号",
+    "nameEn": "Corpse Reviver No. 2",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Rinse glass with absinthe",
+      "Shake remaining with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lillet Blanc",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Absinthe",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-bees-knees",
+    "importKind": "new_recipe",
+    "nameZh": "蜂之膝",
+    "nameEn": "Bee's Knees",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 52.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Honey Syrup",
+        "amountMl": 22.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-champagne-cocktail",
+    "importKind": "new_recipe",
+    "nameZh": "香槟鸡尾酒",
+    "nameEn": "Champagne Cocktail",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "dry",
+      "bitter"
+    ],
+    "glassware": "Flute",
+    "garnish": "Orange twist",
+    "steps": [
+      "Place sugar soaked with bitters",
+      "Top with champagne"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Champagne",
+        "amountMl": 90,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sugar",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cognac",
+        "amountMl": 10,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "iba-kir-royale",
+    "importKind": "new_recipe",
+    "nameZh": "皇家基尔",
+    "nameEn": "Kir Royale",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "other",
+    "flavorTagIds": [
+      "fruity",
+      "dry"
+    ],
+    "glassware": "Flute",
+    "garnish": "",
+    "steps": [
+      "Add cassis",
+      "Top with champagne"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Crème de Cassis",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Champagne",
+        "amountMl": 90,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-vieux-carre",
+    "importKind": "new_recipe",
+    "nameZh": "老广场",
+    "nameEn": "Vieux Carré",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "old_fashioned",
+    "flavorTagIds": [
+      "sweet",
+      "herbal"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Stir with ice",
+      "Strain over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cognac",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Bénédictine",
+        "amountMl": 7.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Peychaud's Bitters",
+        "amountMl": 2,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-blood-and-sand",
+    "importKind": "new_recipe",
+    "nameZh": "血与沙",
+    "nameEn": "Blood and Sand",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Orange twist",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Scotch Whisky",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cherry Heering",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-gin-rickey",
+    "importKind": "new_recipe",
+    "nameZh": "金酒瑞基",
+    "nameEn": "Gin Rickey",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "sour",
+      "dry"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 120,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-whisky-highball",
+    "importKind": "new_recipe",
+    "nameZh": "威士忌嗨棒",
+    "nameEn": "Whisky Highball",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "dry",
+      "spicy"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Build over ice",
+      "Top with ginger ale or soda"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Scotch Whisky",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "highball_whisky"
+      },
+      {
+        "sourceName": "Whiskey",
+        "amountMl": 45,
+        "role": "either",
+        "eitherGroupId": "highball_whisky"
+      },
+      {
+        "sourceName": "Ginger Ale",
+        "amountMl": 120,
+        "role": "either",
+        "eitherGroupId": "highball_top"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 120,
+        "role": "either",
+        "eitherGroupId": "highball_top"
+      }
+    ]
+  },
+  {
+    "id": "iba-caipiroska",
+    "importKind": "new_recipe",
+    "nameZh": "卡皮洛斯卡",
+    "nameEn": "Caipiroska",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Muddle lime with sugar",
+      "Add vodka and ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sugar",
+        "amountMl": null,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-french-connection",
+    "importKind": "new_recipe",
+    "nameZh": "法国关系",
+    "nameEn": "French Connection",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "sweet",
+      "nutty"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Cognac",
+        "amountMl": 35,
+        "role": "required"
+      },
+      {
+        "sourceName": "Amaretto",
+        "amountMl": 35,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-blue-lagoon",
+    "importKind": "new_recipe",
+    "nameZh": "蓝湖",
+    "nameEn": "Blue Lagoon",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lemon",
+    "steps": [
+      "Build over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Blue Curaçao",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 80,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-adonis",
+    "importKind": "new_recipe",
+    "nameZh": "阿多尼斯",
+    "nameEn": "Adonis",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "sweet",
+      "dry"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Orange twist",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Sherry",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-bamboo",
+    "importKind": "new_recipe",
+    "nameZh": "竹林",
+    "nameEn": "Bamboo",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "dry",
+      "herbal"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Stir with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Fino Sherry",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Dry Vermouth",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Bitters",
+        "amountMl": 2,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-southside",
+    "importKind": "new_recipe",
+    "nameZh": "南边",
+    "nameEn": "Southside",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "herbal",
+      "sour"
+    ],
+    "glassware": "Cocktail glass",
+    "garnish": "Mint",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Mint",
+        "amountMl": null,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-gold-rush",
+    "importKind": "new_recipe",
+    "nameZh": "淘金热",
+    "nameEn": "Gold Rush",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Shake with ice",
+      "Strain over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Honey Syrup",
+        "amountMl": 22.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-painkiller",
+    "importKind": "new_recipe",
+    "nameZh": "止痛药",
+    "nameEn": "Painkiller",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "fruity",
+      "creamy"
+    ],
+    "glassware": "Hurricane",
+    "garnish": "Nutmeg and pineapple",
+    "steps": [
+      "Shake or blend with ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Pineapple Juice",
+        "amountMl": 120,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Coconut Cream",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-jungle-bird",
+    "importKind": "new_recipe",
+    "nameZh": "丛林鸟",
+    "nameEn": "Jungle Bird",
+    "ibaCategory": "New Era Drinks",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "bitter",
+      "fruity"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Pineapple",
+    "steps": [
+      "Shake with ice",
+      "Strain over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Campari",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Pineapple Juice",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-new-york-sour",
+    "importKind": "new_recipe",
+    "nameZh": "纽约酸",
+    "nameEn": "New York Sour",
+    "ibaCategory": "Contemporary Classics",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "2020-2024",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "",
+    "steps": [
+      "Shake whiskey sour",
+      "Strain",
+      "Float red wine"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 60,
+        "role": "either",
+        "eitherGroupId": "nys_whiskey"
+      },
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 60,
+        "role": "either",
+        "eitherGroupId": "nys_whiskey"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 20,
+        "role": "optional"
+      },
+      {
+        "sourceName": "Red Wine",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "iba-negroni-v2-sbagliato-note",
+    "importKind": "new_version",
+    "targetRecipeId": "iba-negroni",
+    "nameZh": "内格罗尼",
+    "nameEn": "Negroni",
+    "ibaCategory": "The Unforgettables",
+    "sourceName": "IBA Official Cocktails (local corpus snapshot)",
+    "sourceRevision": "editorial-alt-2024",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "bitter",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Orange slice",
+    "steps": [
+      "Stir with ice",
+      "Strain into rocks glass with large cube",
+      "Express orange oil"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Campari",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-gibson",
+    "importKind": "new_recipe",
+    "nameZh": "吉布森",
+    "nameEn": "Gibson",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "dry",
+      "herbal"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Cocktail onion",
+    "steps": [
+      "Stir gin and dry vermouth with ice",
+      "Strain into chilled cocktail glass",
+      "Garnish with cocktail onion"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Dry Vermouth",
+        "amountMl": 10,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-dirty-martini",
+    "importKind": "new_recipe",
+    "nameZh": "脏马丁尼",
+    "nameEn": "Dirty Martini",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "dry",
+      "savory"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Olive",
+    "steps": [
+      "Stir with ice",
+      "Strain",
+      "Garnish with olive"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Dry Vermouth",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Olive Brine",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Olive",
+        "amountMl": null,
+        "role": "garnish"
+      }
+    ]
+  },
+  {
+    "id": "classic-whiskey-smash",
+    "importKind": "new_recipe",
+    "nameZh": "威士忌捣碎",
+    "nameEn": "Whiskey Smash",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "julep_smash",
+    "flavorTagIds": [
+      "herbal",
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Mint sprig",
+    "steps": [
+      "Muddle lemon wedges with mint and syrup",
+      "Add whiskey and ice",
+      "Shake or stir briefly",
+      "Dump into rocks glass",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Bourbon",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Mint",
+        "amountMl": null,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-hugo-spritz",
+    "importKind": "new_recipe",
+    "nameZh": "雨果气泡",
+    "nameEn": "Hugo Spritz",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "spritz_cobbler",
+    "flavorTagIds": [
+      "floral",
+      "herbal",
+      "dry"
+    ],
+    "glassware": "Wine glass",
+    "garnish": "Mint and lime",
+    "steps": [
+      "Build over ice in wine glass",
+      "Top with prosecco and soda",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Elderflower Liqueur",
+        "amountMl": 40,
+        "role": "required"
+      },
+      {
+        "sourceName": "Prosecco",
+        "amountMl": 90,
+        "role": "required"
+      },
+      {
+        "sourceName": "Soda Water",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Mint",
+        "amountMl": null,
+        "role": "garnish"
+      }
+    ]
+  },
+  {
+    "id": "classic-negroni-sbagliato",
+    "importKind": "new_recipe",
+    "nameZh": "内格罗尼·斯bagliato",
+    "nameEn": "Negroni Sbagliato",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "spritz_cobbler",
+    "flavorTagIds": [
+      "bitter",
+      "floral"
+    ],
+    "glassware": "Wine glass",
+    "garnish": "Orange slice",
+    "steps": [
+      "Build over ice",
+      "Top with prosecco",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Campari",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Prosecco",
+        "amountMl": 60,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-garibaldi",
+    "importKind": "new_recipe",
+    "nameZh": "加里波第",
+    "nameEn": "Garibaldi",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "bitter",
+      "sour"
+    ],
+    "glassware": "Highball",
+    "garnish": "Orange wedge",
+    "steps": [
+      "Build Campari over ice",
+      "Top with fluffy orange juice",
+      "Stir gently"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Campari",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 120,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-old-pal",
+    "importKind": "new_recipe",
+    "nameZh": "老伙计",
+    "nameEn": "Old Pal",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "bitter",
+      "dry"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Stir with ice",
+      "Strain",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Rye Whiskey",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Dry Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Campari",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-bijou",
+    "importKind": "new_recipe",
+    "nameZh": "宝石",
+    "nameEn": "Bijou",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "herbal",
+      "sweet"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Cherry",
+    "steps": [
+      "Stir with ice",
+      "Strain",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Green Chartreuse",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Sweet Red Vermouth",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-alaska",
+    "importKind": "new_recipe",
+    "nameZh": "阿拉斯加",
+    "nameEn": "Alaska",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "herbal"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Stir with ice",
+      "Strain",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Yellow Chartreuse",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Bitters",
+        "amountMl": 2,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "classic-pink-lady",
+    "importKind": "new_recipe",
+    "nameZh": "粉红佳人",
+    "nameEn": "Pink Lady",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet",
+      "fruity"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Cherry",
+    "steps": [
+      "Dry shake",
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Apple Brandy",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Egg White",
+        "amountMl": 20,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "classic-lemon-drop",
+    "importKind": "new_recipe",
+    "nameZh": "柠檬糖马丁尼",
+    "nameEn": "Lemon Drop Martini",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Sugar rim, lemon twist",
+    "steps": [
+      "Shake with ice",
+      "Strain into sugar-rimmed glass"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 10,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "classic-kamikaze",
+    "importKind": "new_recipe",
+    "nameZh": "神风",
+    "nameEn": "Kamikaze",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Lime wheel",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Triple Sec",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 30,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-cape-codder",
+    "importKind": "new_recipe",
+    "nameZh": "科德角",
+    "nameEn": "Cape Codder",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "fruity",
+      "dry"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime wedge",
+    "steps": [
+      "Build over ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cranberry Juice",
+        "amountMl": 120,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-greyhound",
+    "importKind": "new_recipe",
+    "nameZh": "灰狗",
+    "nameEn": "Greyhound",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "sour",
+      "dry"
+    ],
+    "glassware": "Highball",
+    "garnish": "Grapefruit wedge",
+    "steps": [
+      "Build over ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grapefruit Juice",
+        "amountMl": 120,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-salty-dog",
+    "importKind": "new_recipe",
+    "nameZh": "咸狗",
+    "nameEn": "Salty Dog",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "sour",
+      "savory"
+    ],
+    "glassware": "Highball",
+    "garnish": "Salt rim",
+    "steps": [
+      "Salt the rim",
+      "Build over ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grapefruit Juice",
+        "amountMl": 120,
+        "role": "required"
+      },
+      {
+        "sourceName": "Salt",
+        "amountMl": null,
+        "role": "garnish"
+      }
+    ]
+  },
+  {
+    "id": "classic-godmother",
+    "importKind": "new_recipe",
+    "nameZh": "教母",
+    "nameEn": "Godmother",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "duo_trio",
+    "flavorTagIds": [
+      "sweet",
+      "nutty"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "None",
+    "steps": [
+      "Build over ice",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Amaretto",
+        "amountMl": 22.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-el-diablo",
+    "importKind": "new_recipe",
+    "nameZh": "恶魔",
+    "nameEn": "El Diablo",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "highball",
+    "flavorTagIds": [
+      "spicy",
+      "fruity",
+      "sour"
+    ],
+    "glassware": "Highball",
+    "garnish": "Lime wheel",
+    "steps": [
+      "Shake tequila, cassis, and lime with ice",
+      "Strain into ice-filled glass",
+      "Top with ginger beer"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Tequila",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Crème de Cassis",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Ginger Beer",
+        "amountMl": 90,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-ti-punch",
+    "importKind": "new_recipe",
+    "nameZh": "提潘趣",
+    "nameEn": "Ti' Punch",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "old_fashioned",
+    "flavorTagIds": [
+      "sour",
+      "dry"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Lime disc",
+    "steps": [
+      "Build rum, syrup, and lime in glass",
+      "Add ice if desired",
+      "Swizzle briefly"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "White Rum",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 10,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 10,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-corn-n-oil",
+    "importKind": "new_recipe",
+    "nameZh": "玉米油",
+    "nameEn": "Corn 'n' Oil",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "old_fashioned",
+    "flavorTagIds": [
+      "spicy",
+      "sweet"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Lime wedge",
+    "steps": [
+      "Build over ice",
+      "Stir",
+      "Squeeze lime"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Falernum",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "classic-queens-park-swizzle",
+    "importKind": "new_recipe",
+    "nameZh": "皇后公园搅打",
+    "nameEn": "Queen's Park Swizzle",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "herbal",
+      "sour"
+    ],
+    "glassware": "Collins",
+    "garnish": "Mint bouquet",
+    "steps": [
+      "Muddle mint with syrup and lime in glass",
+      "Add rum and crushed ice",
+      "Swizzle",
+      "Dash bitters on top",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lime Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Mint",
+        "amountMl": null,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 3,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-army-navy",
+    "importKind": "new_recipe",
+    "nameZh": "陆海军",
+    "nameEn": "Army & Navy",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "nutty"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orgeat",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Angostura Bitters",
+        "amountMl": 2,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "classic-twentieth-century",
+    "importKind": "new_recipe",
+    "nameZh": "二十世纪",
+    "nameEn": "Twentieth Century",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "sweet"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Lemon twist",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lillet Blanc",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Crème de Cacao",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-jack-rose",
+    "importKind": "new_recipe",
+    "nameZh": "杰克玫瑰",
+    "nameEn": "Jack Rose",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "sour",
+    "flavorTagIds": [
+      "sour",
+      "fruity"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Apple slice or lemon",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Apple Brandy",
+        "amountMl": 50,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Grenadine",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-hot-toddy",
+    "importKind": "new_recipe",
+    "nameZh": "热托迪",
+    "nameEn": "Hot Toddy",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "other",
+    "flavorTagIds": [
+      "spicy",
+      "sweet",
+      "sour"
+    ],
+    "glassware": "Heatproof mug",
+    "garnish": "Lemon wheel",
+    "steps": [
+      "Combine whiskey, honey, and lemon in mug",
+      "Top with hot water",
+      "Stir"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Whiskey",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Honey",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Water",
+        "amountMl": 120,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-hurricane",
+    "importKind": "new_recipe",
+    "nameZh": "飓风",
+    "nameEn": "Hurricane",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "punch_tiki",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Hurricane",
+    "garnish": "Orange and cherry",
+    "steps": [
+      "Shake with ice",
+      "Pour into hurricane glass",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Dark Rum",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "White Rum",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Passion Fruit Syrup",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Orange Juice",
+        "amountMl": 30,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "classic-french-martini",
+    "importKind": "new_recipe",
+    "nameZh": "法式马丁尼",
+    "nameEn": "French Martini",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "martini_manhattan",
+    "flavorTagIds": [
+      "fruity",
+      "sweet"
+    ],
+    "glassware": "Cocktail",
+    "garnish": "Raspberry",
+    "steps": [
+      "Shake with ice",
+      "Strain"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 45,
+        "role": "required"
+      },
+      {
+        "sourceName": "Raspberry Liqueur",
+        "amountMl": 15,
+        "role": "required"
+      },
+      {
+        "sourceName": "Pineapple Juice",
+        "amountMl": 15,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-mudslide",
+    "importKind": "new_recipe",
+    "nameZh": "泥石流",
+    "nameEn": "Mudslide",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "other",
+    "flavorTagIds": [
+      "sweet",
+      "creamy",
+      "smoky"
+    ],
+    "glassware": "Hurricane or rocks",
+    "garnish": "Chocolate drizzle optional",
+    "steps": [
+      "Shake with ice",
+      "Strain over ice"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Vodka",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Coffee Liqueur",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Irish Cream",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cream",
+        "amountMl": 30,
+        "role": "optional"
+      }
+    ]
+  },
+  {
+    "id": "classic-b52",
+    "importKind": "new_recipe",
+    "nameZh": "B-52",
+    "nameEn": "B-52",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "other",
+    "flavorTagIds": [
+      "sweet",
+      "smoky"
+    ],
+    "glassware": "Shot glass",
+    "garnish": "None (layered)",
+    "steps": [
+      "Layer coffee liqueur, Irish cream, then orange liqueur"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Coffee Liqueur",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Irish Cream",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Cointreau",
+        "amountMl": 20,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-gin-basil-smash",
+    "importKind": "new_recipe",
+    "nameZh": "金酒罗勒捣碎",
+    "nameEn": "Gin Basil Smash",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "julep_smash",
+    "flavorTagIds": [
+      "herbal",
+      "sour"
+    ],
+    "glassware": "Old Fashioned",
+    "garnish": "Basil sprig",
+    "steps": [
+      "Muddle basil with lemon and syrup",
+      "Add gin and ice",
+      "Shake",
+      "Double strain over ice",
+      "Garnish"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Gin",
+        "amountMl": 60,
+        "role": "required"
+      },
+      {
+        "sourceName": "Lemon Juice",
+        "amountMl": 22.5,
+        "role": "required"
+      },
+      {
+        "sourceName": "Simple Syrup",
+        "amountMl": 20,
+        "role": "required"
+      },
+      {
+        "sourceName": "Fresh Basil",
+        "amountMl": null,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-death-in-the-afternoon",
+    "importKind": "new_recipe",
+    "nameZh": "午后之死",
+    "nameEn": "Death in the Afternoon",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "spritz_cobbler",
+    "flavorTagIds": [
+      "herbal",
+      "floral"
+    ],
+    "glassware": "Flute",
+    "garnish": "None",
+    "steps": [
+      "Pour absinthe into flute",
+      "Top with chilled champagne"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Absinthe",
+        "amountMl": 30,
+        "role": "required"
+      },
+      {
+        "sourceName": "Champagne",
+        "amountMl": 120,
+        "role": "required"
+      }
+    ]
+  },
+  {
+    "id": "classic-black-velvet",
+    "importKind": "new_recipe",
+    "nameZh": "黑天鹅绒",
+    "nameEn": "Black Velvet",
+    "ibaCategory": "Classic gap-fill",
+    "sourceName": "Classic / bar canon (local curated gap-fill)",
+    "sourceRevision": "2026-08-12-gapfill",
+    "familyId": "other",
+    "flavorTagIds": [
+      "smoky",
+      "floral"
+    ],
+    "glassware": "Flute",
+    "garnish": "None",
+    "steps": [
+      "Half fill with stout",
+      "Top gently with champagne"
+    ],
+    "ingredients": [
+      {
+        "sourceName": "Stout Beer",
+        "amountMl": 75,
+        "role": "required"
+      },
+      {
+        "sourceName": "Champagne",
+        "amountMl": 75,
+        "role": "required"
+      }
+    ]
+  }
+]

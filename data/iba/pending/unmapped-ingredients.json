@@ -1,0 +1,6 @@
+{
+  "generatedAt": "2026-08-12T15:36:18.248Z",
+  "count": 0,
+  "items": [],
+  "note": "No silent name guessing. Confirm mappings in ingredients/mappings.json then re-run pnpm db:seed."
+}

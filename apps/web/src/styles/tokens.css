@@ -1,0 +1,61 @@
+:root {
+  /* Type */
+  --font-sans: "Atkinson Hyperlegible", "Segoe UI", sans-serif;
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+
+  /* User (cool stone + bottle teal) */
+  --ink: #16201c;
+  --ink-muted: #3d4a45;
+  --paper: #eef1ef;
+  --surface: #f7f8f7;
+  --surface-2: #e2e7e4;
+  --line: #c5cec9;
+  --accent: #0f6b5c;
+  --accent-ink: #06352e;
+  --accent-soft: #d7ebe6;
+  --warn: #8a4b12;
+  --warn-soft: #f3e4d4;
+  --warn-line: #d4b896;
+  --danger: #8b1e2d;
+  --danger-soft: #f3d7db;
+  --complete-line: #8fbfb3;
+  --focus: #1d6fd8;
+
+  /* Admin (cooler slate — distinct chrome) */
+  --admin-ink: #1b1d24;
+  --admin-paper: #e8eaef;
+  --admin-surface: #f4f5f8;
+  --admin-accent: #3a4f8a;
+  --admin-line: #c4c9d4;
+  --admin-muted: #5a6170;
+  --admin-soft: #dfe4f0;
+  --admin-control: #ffffff;
+
+  /* Shape & density */
+  --radius-sm: 4px;
+  --radius: 6px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --control-pad-y: var(--space-2);
+  --control-pad-x: var(--space-3);
+  --shadow: 0 1px 2px rgb(22 32 28 / 8%);
+  --shadow-hover: 0 2px 5px rgb(22 32 28 / 10%);
+  --motion: 180ms ease-out;
+  --measure: 72rem;
+  --admin-measure: 60rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion: 0ms;
+  }
+}

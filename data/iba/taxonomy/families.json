@@ -1,0 +1,14 @@
+[
+  { "id": "old_fashioned", "nameZh": "Old Fashioned / Ancestral", "nameEn": "Old Fashioned / Ancestral", "sortOrder": 10, "active": 1 },
+  { "id": "martini_manhattan", "nameZh": "Martini–Manhattan", "nameEn": "Martini–Manhattan", "sortOrder": 20, "active": 1 },
+  { "id": "sour", "nameZh": "Sour", "nameEn": "Sour", "sortOrder": 30, "active": 1 },
+  { "id": "daisy", "nameZh": "Daisy", "nameEn": "Daisy", "sortOrder": 40, "active": 1 },
+  { "id": "highball", "nameZh": "Highball", "nameEn": "Highball", "sortOrder": 50, "active": 1 },
+  { "id": "collins_fizz", "nameZh": "Collins / Fizz / Rickey", "nameEn": "Collins / Fizz / Rickey", "sortOrder": 60, "active": 1 },
+  { "id": "julep_smash", "nameZh": "Julep / Smash", "nameEn": "Julep / Smash", "sortOrder": 70, "active": 1 },
+  { "id": "duo_trio", "nameZh": "Duo / Trio", "nameEn": "Duo / Trio", "sortOrder": 80, "active": 1 },
+  { "id": "flip", "nameZh": "Flip", "nameEn": "Flip", "sortOrder": 90, "active": 1 },
+  { "id": "punch_tiki", "nameZh": "Punch / Tiki", "nameEn": "Punch / Tiki", "sortOrder": 100, "active": 1 },
+  { "id": "spritz_cobbler", "nameZh": "Spritz / Cobbler", "nameEn": "Spritz / Cobbler", "sortOrder": 110, "active": 1 },
+  { "id": "other", "nameZh": "其他", "nameEn": "Other", "sortOrder": 120, "active": 1 }
+]

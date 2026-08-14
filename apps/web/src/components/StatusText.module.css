@@ -1,0 +1,32 @@
+.type {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+}
+
+.complete {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  border-color: var(--complete-line);
+}
+
+.missing {
+  background: var(--warn-soft);
+  color: var(--warn);
+  border-color: var(--warn-line);
+}
+
+.owned {
+  color: var(--accent-ink);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.lack {
+  color: var(--warn);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}

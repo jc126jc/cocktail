@@ -1,0 +1,359 @@
+.stack {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.card {
+  background: var(--admin-surface);
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+}
+
+.card .muted {
+  margin-top: var(--space-3);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+  table-layout: fixed;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid var(--admin-line);
+  padding: var(--space-3) var(--space-3);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table th {
+  color: var(--admin-muted);
+  font-weight: 700;
+}
+
+.colName {
+  width: 28%;
+}
+
+.colStatus {
+  width: 7.5rem;
+}
+
+.colRec {
+  width: 8rem;
+}
+
+.colActions {
+  width: 14rem;
+  text-align: right;
+}
+
+.colActions .actions {
+  justify-content: flex-end;
+}
+
+.cellTruncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn {
+  border: 1px solid var(--admin-line);
+  background: var(--admin-control);
+  border-radius: var(--radius);
+  padding: var(--control-pad-y) var(--control-pad-x);
+  cursor: pointer;
+  font-size: var(--text-sm);
+}
+
+.btn:hover {
+  background: var(--admin-soft);
+}
+
+.btnPrimary {
+  background: var(--admin-accent);
+  color: white;
+  border-color: var(--admin-accent);
+}
+
+.btnPrimary:hover {
+  filter: brightness(0.92);
+}
+
+.btnDanger {
+  background: var(--danger);
+  color: white;
+  border-color: var(--danger);
+}
+
+.btnDanger:hover {
+  filter: brightness(0.92);
+}
+
+.form {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 36rem;
+}
+
+.form label {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.form input,
+.form select,
+.form textarea {
+  font-weight: 400;
+  padding: var(--control-pad-y) var(--control-pad-x);
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  background: var(--admin-control);
+}
+
+.muted {
+  color: var(--admin-muted);
+  font-size: var(--text-sm);
+}
+
+.error {
+  color: var(--danger);
+  font-size: var(--text-sm);
+}
+
+.warn {
+  color: #9a6700;
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-sm);
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.formGrid label,
+.blockLabel {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.formGrid input,
+.formGrid select,
+.blockLabel input,
+.textarea {
+  font-weight: 400;
+  padding: var(--control-pad-y) var(--control-pad-x);
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  background: var(--admin-control);
+}
+
+.textarea {
+  width: 100%;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.sourceShell {
+  position: relative;
+  margin-top: var(--space-1);
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  background: var(--admin-control);
+  transition: border-color 0.15s ease;
+}
+
+.sourceShell:focus-within {
+  border-color: var(--admin-accent);
+}
+
+.sourceInput {
+  display: block;
+  width: 100%;
+  min-height: 14rem;
+  padding: var(--control-pad-y) calc(var(--space-4) + 4.25rem)
+    calc(var(--control-pad-y) + 2.5rem) var(--control-pad-x);
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+  resize: vertical;
+  font: inherit;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.sourceInput:focus {
+  outline: none;
+}
+
+.sourceParse {
+  position: absolute;
+  right: var(--space-2);
+  bottom: var(--space-2);
+  padding: 0.4rem 0.95rem;
+  border-radius: calc(var(--radius) - 2px);
+  border: 1px solid var(--admin-accent);
+  background: var(--admin-accent);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: var(--text-sm);
+  line-height: 1.2;
+}
+
+.sourceParse:hover:not(:disabled) {
+  filter: brightness(0.92);
+}
+
+.sourceParse:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.fieldset {
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  margin: 0 0 var(--space-3);
+}
+
+.checkGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-3);
+}
+
+.checkGrid label {
+  font-weight: 400;
+  display: flex;
+  gap: var(--space-1);
+  align-items: center;
+  font-size: var(--text-sm);
+}
+
+.row {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.toolbar {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.toolbar h1 {
+  margin-bottom: var(--space-1);
+}
+
+.toolbar .muted {
+  margin: 0;
+}
+
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.filterField {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.filterLabel {
+  color: var(--admin-muted);
+  font-weight: 700;
+}
+
+.filterInput {
+  min-width: 18rem;
+  padding: var(--control-pad-y) var(--control-pad-x);
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  background: var(--admin-control);
+  font-weight: 400;
+}
+
+.filterSelect {
+  padding: var(--control-pad-y) var(--control-pad-x);
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  background: var(--admin-control);
+  font-weight: 400;
+}
+
+.actions {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
+
+.actions .btnDanger {
+  margin-left: var(--space-2);
+}
+
+.linkBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--admin-line);
+  background: var(--admin-control);
+  border-radius: var(--radius);
+  padding: var(--control-pad-y) var(--control-pad-x);
+  font-size: var(--text-sm);
+  text-decoration: none;
+  color: var(--admin-ink);
+  transition: background var(--motion), border-color var(--motion);
+}
+
+.linkBtn:hover {
+  background: var(--admin-soft);
+  border-color: var(--admin-accent);
+  color: var(--admin-accent);
+}
+
+.empty {
+  padding: var(--space-4);
+  border: 1px dashed var(--admin-line);
+  border-radius: var(--radius);
+  color: var(--admin-muted);
+  font-size: var(--text-sm);
+  background: var(--admin-surface);
+}
+
+.loginShell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--admin-paper);
+  color: var(--admin-ink);
+  padding: var(--space-5);
+}
+
+.loginCard {
+  width: min(22rem, 100%);
+  background: var(--admin-surface);
+  border: 1px solid var(--admin-line);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+}

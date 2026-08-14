@@ -1,0 +1,10 @@
+id,name_zh,name_en,sort_order,active
+gin,金酒,Gin,10,1
+whiskey,威士忌,Whiskey,20,1
+rum,朗姆酒,Rum,30,1
+vodka,伏特加,Vodka,40,1
+tequila,龙舌兰,Tequila,50,1
+brandy,白兰地,Brandy,60,1
+wine,葡萄酒,Wine,70,1
+beer,啤酒,Beer,80,1
+baijiu,中国白酒,Baijiu,90,1

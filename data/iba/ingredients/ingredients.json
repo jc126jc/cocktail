@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "gin",
+    "nameZh": "金酒",
+    "nameEn": "Gin",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "gin",
+    "canBeStaple": 0,
+    "aliases": [
+      "金酒",
+      "Gin"
+    ]
+  },
+  {
+    "id": "london_dry_gin",
+    "nameZh": "伦敦干金",
+    "nameEn": "London Dry Gin",
+    "categoryId": "spirits",
+    "parentIngredientId": "gin",
+    "alcoholGroupId": "gin",
+    "canBeStaple": 0,
+    "aliases": [
+      "London Dry Gin"
+    ]
+  },
+  {
+    "id": "old_tom_gin",
+    "nameZh": "老汤姆金",
+    "nameEn": "Old Tom Gin",
+    "categoryId": "spirits",
+    "parentIngredientId": "gin",
+    "alcoholGroupId": "gin",
+    "canBeStaple": 0,
+    "aliases": [
+      "Old Tom Gin"
+    ]
+  },
+  {
+    "id": "whiskey",
+    "nameZh": "威士忌",
+    "nameEn": "Whiskey",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "whiskey",
+    "canBeStaple": 0,
+    "aliases": [
+      "Whisky",
+      "威士忌"
+    ]
+  },
+  {
+    "id": "bourbon",
+    "nameZh": "波本威士忌",
+    "nameEn": "Bourbon",
+    "categoryId": "spirits",
+    "parentIngredientId": "whiskey",
+    "alcoholGroupId": "whiskey",
+    "canBeStaple": 0,
+    "aliases": [
+      "Bourbon Whiskey"
+    ]
+  },
+  {
+    "id": "rye_whiskey",
+    "nameZh": "黑麦威士忌",
+    "nameEn": "Rye Whiskey",
+    "categoryId": "spirits",
+    "parentIngredientId": "whiskey",
+    "alcoholGroupId": "whiskey",
+    "canBeStaple": 0,
+    "aliases": [
+      "Rye"
+    ]
+  },
+  {
+    "id": "scotch",
+    "nameZh": "苏格兰威士忌",
+    "nameEn": "Scotch Whisky",
+    "categoryId": "spirits",
+    "parentIngredientId": "whiskey",
+    "alcoholGroupId": "whiskey",
+    "canBeStaple": 0,
+    "aliases": [
+      "Scotch"
+    ]
+  },
+  {
+    "id": "irish_whiskey",
+    "nameZh": "爱尔兰威士忌",
+    "nameEn": "Irish Whiskey",
+    "categoryId": "spirits",
+    "parentIngredientId": "whiskey",
+    "alcoholGroupId": "whiskey",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "rum",
+    "nameZh": "朗姆酒",
+    "nameEn": "Rum",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "rum",
+    "canBeStaple": 0,
+    "aliases": [
+      "Rum"
+    ]
+  },
+  {
+    "id": "white_rum",
+    "nameZh": "白朗姆",
+    "nameEn": "White Rum",
+    "categoryId": "spirits",
+    "parentIngredientId": "rum",
+    "alcoholGroupId": "rum",
+    "canBeStaple": 0,
+    "aliases": [
+      "Light Rum",
+      "Blanco Rum"
+    ]
+  },
+  {
+    "id": "dark_rum",
+    "nameZh": "深色朗姆",
+    "nameEn": "Dark Rum",
+    "categoryId": "spirits",
+    "parentIngredientId": "rum",
+    "alcoholGroupId": "rum",
+    "canBeStaple": 0,
+    "aliases": [
+      "Black Rum"
+    ]
+  },
+  {
+    "id": "gold_rum",
+    "nameZh": "金朗姆",
+    "nameEn": "Gold Rum",
+    "categoryId": "spirits",
+    "parentIngredientId": "rum",
+    "alcoholGroupId": "rum",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "overproof_rum",
+    "nameZh": "过劲朗姆",
+    "nameEn": "Overproof Rum",
+    "categoryId": "spirits",
+    "parentIngredientId": "rum",
+    "alcoholGroupId": "rum",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "vodka",
+    "nameZh": "伏特加",
+    "nameEn": "Vodka",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "vodka",
+    "canBeStaple": 0,
+    "aliases": [
+      "Vodka"
+    ]
+  },
+  {
+    "id": "tequila",
+    "nameZh": "龙舌兰",
+    "nameEn": "Tequila",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "tequila",
+    "canBeStaple": 0,
+    "aliases": [
+      "Tequila"
+    ]
+  },
+  {
+    "id": "tequila_blanco",
+    "nameZh": "白龙舌兰",
+    "nameEn": "Blanco Tequila",
+    "categoryId": "spirits",
+    "parentIngredientId": "tequila",
+    "alcoholGroupId": "tequila",
+    "canBeStaple": 0,
+    "aliases": [
+      "Silver Tequila"
+    ]
+  },
+  {
+    "id": "tequila_reposado",
+    "nameZh": "陈酿龙舌兰",
+    "nameEn": "Reposado Tequila",
+    "categoryId": "spirits",
+    "parentIngredientId": "tequila",
+    "alcoholGroupId": "tequila",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "mezcal",
+    "nameZh": "梅斯卡尔",
+    "nameEn": "Mezcal",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "tequila",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "brandy",
+    "nameZh": "白兰地",
+    "nameEn": "Brandy",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "brandy",
+    "canBeStaple": 0,
+    "aliases": [
+      "Brandy"
+    ]
+  },
+  {
+    "id": "cognac",
+    "nameZh": "干邑",
+    "nameEn": "Cognac",
+    "categoryId": "spirits",
+    "parentIngredientId": "brandy",
+    "alcoholGroupId": "brandy",
+    "canBeStaple": 0,
+    "aliases": [
+      "Cognac"
+    ]
+  },
+  {
+    "id": "absinthe",
+    "nameZh": "苦艾酒",
+    "nameEn": "Absinthe",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "triple_sec",
+    "nameZh": "橙皮利口酒（Triple Sec）",
+    "nameEn": "Triple Sec",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Triple Sec",
+      "Curaçao"
+    ]
+  },
+  {
+    "id": "cointreau",
+    "nameZh": "君度",
+    "nameEn": "Cointreau",
+    "categoryId": "liqueurs",
+    "parentIngredientId": "triple_sec",
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Cointreau"
+    ],
+    "hierarchyNote": "Explicit editorial parent→child link: Cointreau satisfies Triple Sec. Not inferred by name."
+  },
+  {
+    "id": "campari",
+    "nameZh": "金巴利",
+    "nameEn": "Campari",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Campari"
+    ]
+  },
+  {
+    "id": "aperol",
+    "nameZh": "阿佩罗",
+    "nameEn": "Aperol",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Aperol"
+    ]
+  },
+  {
+    "id": "maraschino",
+    "nameZh": "马拉斯奇诺利口酒",
+    "nameEn": "Maraschino Liqueur",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Maraschino"
+    ]
+  },
+  {
+    "id": "cherry_heering",
+    "nameZh": "樱桃利口酒",
+    "nameEn": "Cherry Heering",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Cherry Liqueur"
+    ]
+  },
+  {
+    "id": "benedictine",
+    "nameZh": "本尼迪克汀",
+    "nameEn": "Bénédictine",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Benedictine"
+    ]
+  },
+  {
+    "id": "drambuie",
+    "nameZh": "杜林标",
+    "nameEn": "Drambuie",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "galliano",
+    "nameZh": "加利亚诺",
+    "nameEn": "Galliano",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "kahlua",
+    "nameZh": "卡鲁瓦",
+    "nameEn": "Coffee Liqueur",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Kahlúa",
+      "Coffee Liqueur"
+    ]
+  },
+  {
+    "id": "amaretto",
+    "nameZh": "杏仁利口酒",
+    "nameEn": "Amaretto",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "creme_de_cacao",
+    "nameZh": "可可利口酒",
+    "nameEn": "Crème de Cacao",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Creme de Cacao"
+    ]
+  },
+  {
+    "id": "creme_de_menthe",
+    "nameZh": "薄荷利口酒",
+    "nameEn": "Crème de Menthe",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "creme_de_violette",
+    "nameZh": "紫罗兰利口酒",
+    "nameEn": "Crème de Violette",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "green_chartreuse",
+    "nameZh": "绿查特酒",
+    "nameEn": "Green Chartreuse",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Chartreuse Verte"
+    ]
+  },
+  {
+    "id": "yellow_chartreuse",
+    "nameZh": "黄查特酒",
+    "nameEn": "Yellow Chartreuse",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "dom_benedictine",
+    "nameZh": "DOM 本尼迪克汀",
+    "nameEn": "DOM Bénédictine",
+    "categoryId": "liqueurs",
+    "parentIngredientId": "benedictine",
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "peach_schnapps",
+    "nameZh": "蜜桃力娇酒",
+    "nameEn": "Peach Schnapps",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "sloe_gin",
+    "nameZh": "黑刺李金酒",
+    "nameEn": "Sloe Gin",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": "gin",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "apricot_brandy",
+    "nameZh": "杏子白兰地",
+    "nameEn": "Apricot Brandy",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": "brandy",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "calvados",
+    "nameZh": "卡尔瓦多斯",
+    "nameEn": "Calvados",
+    "categoryId": "spirits",
+    "parentIngredientId": "brandy",
+    "alcoholGroupId": "brandy",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "pisco",
+    "nameZh": "皮斯科",
+    "nameEn": "Pisco",
+    "categoryId": "spirits",
+    "parentIngredientId": "brandy",
+    "alcoholGroupId": "brandy",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "sweet_vermouth",
+    "nameZh": "甜味美思",
+    "nameEn": "Sweet Red Vermouth",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": [
+      "Sweet Vermouth",
+      "Red Vermouth",
+      "Italian Vermouth"
+    ]
+  },
+  {
+    "id": "dry_vermouth",
+    "nameZh": "干味美思",
+    "nameEn": "Dry Vermouth",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": [
+      "French Vermouth"
+    ]
+  },
+  {
+    "id": "blanc_vermouth",
+    "nameZh": "白味美思",
+    "nameEn": "Blanc Vermouth",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": [
+      "White Vermouth"
+    ]
+  },
+  {
+    "id": "prosecco",
+    "nameZh": "普罗塞克",
+    "nameEn": "Prosecco",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": [
+      "Sparkling Wine"
+    ]
+  },
+  {
+    "id": "champagne",
+    "nameZh": "香槟",
+    "nameEn": "Champagne",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "red_wine",
+    "nameZh": "红葡萄酒",
+    "nameEn": "Red Wine",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "port",
+    "nameZh": "波特酒",
+    "nameEn": "Port",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": [
+      "Tawny Port",
+      "Ruby Port"
+    ]
+  },
+  {
+    "id": "sherry",
+    "nameZh": "雪利酒",
+    "nameEn": "Sherry",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "beer_lager",
+    "nameZh": "拉格啤酒",
+    "nameEn": "Lager Beer",
+    "categoryId": "beer",
+    "parentIngredientId": null,
+    "alcoholGroupId": "beer",
+    "canBeStaple": 0,
+    "aliases": [
+      "Beer"
+    ]
+  },
+  {
+    "id": "angostura_bitters",
+    "nameZh": "安格斯图拉苦精",
+    "nameEn": "Angostura Bitters",
+    "categoryId": "bitters",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Angostura"
+    ]
+  },
+  {
+    "id": "orange_bitters",
+    "nameZh": "橙苦精",
+    "nameEn": "Orange Bitters",
+    "categoryId": "bitters",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "peychaud_bitters",
+    "nameZh": "佩肖苦精",
+    "nameEn": "Peychaud's Bitters",
+    "categoryId": "bitters",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Peychauds Bitters"
+    ]
+  },
+  {
+    "id": "lemon_juice",
+    "nameZh": "柠檬汁",
+    "nameEn": "Lemon Juice",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Fresh Lemon Juice"
+    ]
+  },
+  {
+    "id": "lime_juice",
+    "nameZh": "青柠汁",
+    "nameEn": "Lime Juice",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Fresh Lime Juice"
+    ]
+  },
+  {
+    "id": "orange_juice",
+    "nameZh": "橙汁",
+    "nameEn": "Orange Juice",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "grapefruit_juice",
+    "nameZh": "葡萄柚汁",
+    "nameEn": "Grapefruit Juice",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "pineapple_juice",
+    "nameZh": "菠萝汁",
+    "nameEn": "Pineapple Juice",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "cranberry_juice",
+    "nameZh": "蔓越莓汁",
+    "nameEn": "Cranberry Juice",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "tomato_juice",
+    "nameZh": "番茄汁",
+    "nameEn": "Tomato Juice",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "egg_white",
+    "nameZh": "蛋清",
+    "nameEn": "Egg White",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "egg_yolk",
+    "nameZh": "蛋黄",
+    "nameEn": "Egg Yolk",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "cream",
+    "nameZh": "奶油",
+    "nameEn": "Cream",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "simple_syrup",
+    "nameZh": "简易糖浆",
+    "nameEn": "Simple Syrup",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Sugar Syrup",
+      "Gomme Syrup"
+    ]
+  },
+  {
+    "id": "sugar",
+    "nameZh": "糖",
+    "nameEn": "Sugar",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "White Sugar",
+      "Cube Sugar"
+    ]
+  },
+  {
+    "id": "honey",
+    "nameZh": "蜂蜜",
+    "nameEn": "Honey",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Honey Syrup"
+    ]
+  },
+  {
+    "id": "grenadine",
+    "nameZh": "红石榴糖浆",
+    "nameEn": "Grenadine",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "orgeat",
+    "nameZh": "杏仁糖浆",
+    "nameEn": "Orgeat",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Orgeat Syrup"
+    ]
+  },
+  {
+    "id": "soda_water",
+    "nameZh": "苏打水",
+    "nameEn": "Soda Water",
+    "categoryId": "carbonated_mixers",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Club Soda",
+      "Sparkling Water"
+    ]
+  },
+  {
+    "id": "tonic_water",
+    "nameZh": "汤力水",
+    "nameEn": "Tonic Water",
+    "categoryId": "carbonated_mixers",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Tonic"
+    ]
+  },
+  {
+    "id": "ginger_beer",
+    "nameZh": "姜汁啤酒",
+    "nameEn": "Ginger Beer",
+    "categoryId": "carbonated_mixers",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "cola",
+    "nameZh": "可乐",
+    "nameEn": "Cola",
+    "categoryId": "carbonated_mixers",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Coca-Cola"
+    ]
+  },
+  {
+    "id": "coffee",
+    "nameZh": "咖啡",
+    "nameEn": "Coffee",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Espresso"
+    ]
+  },
+  {
+    "id": "mint",
+    "nameZh": "薄荷",
+    "nameEn": "Mint",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Fresh Mint"
+    ]
+  },
+  {
+    "id": "orange_peel",
+    "nameZh": "橙皮",
+    "nameEn": "Orange Peel",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Orange Zest",
+      "Orange Twist"
+    ]
+  },
+  {
+    "id": "lemon_peel",
+    "nameZh": "柠檬皮",
+    "nameEn": "Lemon Peel",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Lemon Twist"
+    ]
+  },
+  {
+    "id": "olive",
+    "nameZh": "橄榄",
+    "nameEn": "Olive",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Green Olive"
+    ]
+  },
+  {
+    "id": "cherry",
+    "nameZh": "樱桃",
+    "nameEn": "Cherry",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Maraschino Cherry"
+    ]
+  },
+  {
+    "id": "ice",
+    "nameZh": "冰块",
+    "nameEn": "Ice",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "water",
+    "nameZh": "水",
+    "nameEn": "Water",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "salt",
+    "nameZh": "盐",
+    "nameEn": "Salt",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "black_pepper",
+    "nameZh": "黑胡椒",
+    "nameEn": "Black Pepper",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "worcestershire",
+    "nameZh": "伍斯特酱",
+    "nameEn": "Worcestershire Sauce",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "tabasco",
+    "nameZh": "塔巴斯科辣椒酱",
+    "nameEn": "Tabasco",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "coconut_cream",
+    "nameZh": "椰浆",
+    "nameEn": "Coconut Cream",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "fino_sherry",
+    "nameZh": "菲诺雪利",
+    "nameEn": "Fino Sherry",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": "sherry",
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "lillet_blanc",
+    "nameZh": "丽蕾白",
+    "nameEn": "Lillet Blanc",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "elderflower_liqueur",
+    "nameZh": "接骨木花利口酒",
+    "nameEn": "Elderflower Liqueur",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "St-Germain"
+    ]
+  },
+  {
+    "id": "cachaca",
+    "nameZh": "卡沙萨",
+    "nameEn": "Cachaça",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "rum",
+    "canBeStaple": 0,
+    "aliases": [
+      "Cachaca"
+    ]
+  },
+  {
+    "id": "fernet_branca",
+    "nameZh": "菲尼特苦酒",
+    "nameEn": "Fernet Branca",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Fernet"
+    ]
+  },
+  {
+    "id": "amaro_nonino",
+    "nameZh": "诺尼诺苦酒",
+    "nameEn": "Amaro Nonino",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Nonino"
+    ]
+  },
+  {
+    "id": "creme_de_cassis",
+    "nameZh": "黑加仑利口酒",
+    "nameEn": "Crème de Cassis",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Creme de Cassis",
+      "Cassis"
+    ]
+  },
+  {
+    "id": "creme_de_mure",
+    "nameZh": "黑莓利口酒",
+    "nameEn": "Crème de Mûre",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Creme de Mure",
+      "Blackberry Liqueur"
+    ]
+  },
+  {
+    "id": "falernum",
+    "nameZh": "法勒南",
+    "nameEn": "Falernum",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "blue_curacao",
+    "nameZh": "蓝橙皮利口酒",
+    "nameEn": "Blue Curaçao",
+    "categoryId": "liqueurs",
+    "parentIngredientId": "triple_sec",
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Blue Curacao"
+    ]
+  },
+  {
+    "id": "white_wine",
+    "nameZh": "白葡萄酒",
+    "nameEn": "White Wine",
+    "categoryId": "wine_fortified",
+    "parentIngredientId": null,
+    "alcoholGroupId": "wine",
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "raspberry_syrup",
+    "nameZh": "覆盆子糖浆",
+    "nameEn": "Raspberry Syrup",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Raspberry syrup"
+    ]
+  },
+  {
+    "id": "agave_syrup",
+    "nameZh": "龙舌兰糖浆",
+    "nameEn": "Agave Syrup",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Agave Nectar"
+    ]
+  },
+  {
+    "id": "honey_syrup",
+    "nameZh": "蜂蜜糖浆",
+    "nameEn": "Honey Syrup",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": "honey",
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "orange_flower_water",
+    "nameZh": "橙花水",
+    "nameEn": "Orange Flower Water",
+    "categoryId": "other",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Orange Blossom Water"
+    ]
+  },
+  {
+    "id": "white_peach_puree",
+    "nameZh": "白桃泥",
+    "nameEn": "White Peach Puree",
+    "categoryId": "juice_fruit",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Peach Puree"
+    ]
+  },
+  {
+    "id": "fresh_ginger",
+    "nameZh": "鲜姜",
+    "nameEn": "Fresh Ginger",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Ginger"
+    ]
+  },
+  {
+    "id": "fresh_chili",
+    "nameZh": "鲜辣椒",
+    "nameEn": "Fresh Chili",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Chili",
+      "Red Chili"
+    ]
+  },
+  {
+    "id": "espresso",
+    "nameZh": "浓缩咖啡",
+    "nameEn": "Espresso",
+    "categoryId": "other",
+    "parentIngredientId": "coffee",
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": []
+  },
+  {
+    "id": "ginger_ale",
+    "nameZh": "姜汁汽水",
+    "nameEn": "Ginger Ale",
+    "categoryId": "carbonated_mixers",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": []
+  },
+  {
+    "id": "grapefruit_soda",
+    "nameZh": "葡萄柚汽水",
+    "nameEn": "Grapefruit Soda",
+    "categoryId": "carbonated_mixers",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Squirt",
+      "Jarritos Grapefruit"
+    ]
+  },
+  {
+    "id": "baijiu_generic",
+    "nameZh": "中国白酒（通用）",
+    "nameEn": "Chinese Baijiu",
+    "categoryId": "spirits",
+    "parentIngredientId": null,
+    "alcoholGroupId": "baijiu",
+    "canBeStaple": 0,
+    "aliases": [
+      "白酒"
+    ],
+    "hierarchyNote": "Hierarchy placeholder only. No modern baijiu cocktail recipes are auto-seeded."
+  },
+  {
+    "id": "olive_brine",
+    "nameZh": "橄榄卤汁",
+    "nameEn": "Olive Brine",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Olive Juice"
+    ]
+  },
+  {
+    "id": "irish_cream",
+    "nameZh": "爱尔兰奶油利口酒",
+    "nameEn": "Irish Cream Liqueur",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Baileys",
+      "Bailey's Irish Cream"
+    ]
+  },
+  {
+    "id": "passion_fruit_syrup",
+    "nameZh": "百香果糖浆",
+    "nameEn": "Passion Fruit Syrup",
+    "categoryId": "syrups_sweeteners",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Passionfruit Syrup"
+    ]
+  },
+  {
+    "id": "raspberry_liqueur",
+    "nameZh": "覆盆子利口酒",
+    "nameEn": "Raspberry Liqueur",
+    "categoryId": "liqueurs",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 0,
+    "aliases": [
+      "Chambord",
+      "Crème de Framboise",
+      "Creme de Framboise"
+    ]
+  },
+  {
+    "id": "fresh_basil",
+    "nameZh": "新鲜罗勒",
+    "nameEn": "Fresh Basil",
+    "categoryId": "herbs_garnish",
+    "parentIngredientId": null,
+    "alcoholGroupId": null,
+    "canBeStaple": 1,
+    "aliases": [
+      "Basil"
+    ]
+  },
+  {
+    "id": "beer_stout",
+    "nameZh": "世涛啤酒",
+    "nameEn": "Stout Beer",
+    "categoryId": "beer",
+    "parentIngredientId": null,
+    "alcoholGroupId": "beer",
+    "canBeStaple": 0,
+    "aliases": [
+      "Guinness",
+      "Stout"
+    ]
+  }
+]

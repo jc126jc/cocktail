@@ -1,0 +1,14 @@
+[
+  { "id": "sweet", "nameZh": "甜", "nameEn": "Sweet", "sortOrder": 10, "active": 1 },
+  { "id": "sour", "nameZh": "酸", "nameEn": "Sour", "sortOrder": 20, "active": 1 },
+  { "id": "bitter", "nameZh": "苦", "nameEn": "Bitter", "sortOrder": 30, "active": 1 },
+  { "id": "dry", "nameZh": "干型", "nameEn": "Dry", "sortOrder": 40, "active": 1 },
+  { "id": "fruity", "nameZh": "果香", "nameEn": "Fruity", "sortOrder": 50, "active": 1 },
+  { "id": "floral", "nameZh": "花香", "nameEn": "Floral", "sortOrder": 60, "active": 1 },
+  { "id": "herbal", "nameZh": "草本", "nameEn": "Herbal", "sortOrder": 70, "active": 1 },
+  { "id": "spicy", "nameZh": "香料", "nameEn": "Spicy", "sortOrder": 80, "active": 1 },
+  { "id": "smoky", "nameZh": "烟熏 / 烘烤", "nameEn": "Smoky / Roasted", "sortOrder": 90, "active": 1 },
+  { "id": "nutty", "nameZh": "坚果", "nameEn": "Nutty", "sortOrder": 100, "active": 1 },
+  { "id": "creamy", "nameZh": "奶油", "nameEn": "Creamy", "sortOrder": 110, "active": 1 },
+  { "id": "savory", "nameZh": "咸鲜", "nameEn": "Savory", "sortOrder": 120, "active": 1 }
+]

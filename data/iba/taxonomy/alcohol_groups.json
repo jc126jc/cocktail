@@ -1,0 +1,11 @@
+[
+  { "id": "gin", "nameZh": "金酒", "nameEn": "Gin", "sortOrder": 10, "active": 1 },
+  { "id": "whiskey", "nameZh": "威士忌", "nameEn": "Whiskey", "sortOrder": 20, "active": 1 },
+  { "id": "rum", "nameZh": "朗姆酒", "nameEn": "Rum", "sortOrder": 30, "active": 1 },
+  { "id": "vodka", "nameZh": "伏特加", "nameEn": "Vodka", "sortOrder": 40, "active": 1 },
+  { "id": "tequila", "nameZh": "龙舌兰", "nameEn": "Tequila", "sortOrder": 50, "active": 1 },
+  { "id": "brandy", "nameZh": "白兰地", "nameEn": "Brandy", "sortOrder": 60, "active": 1 },
+  { "id": "wine", "nameZh": "葡萄酒", "nameEn": "Wine", "sortOrder": 70, "active": 1 },
+  { "id": "beer", "nameZh": "啤酒", "nameEn": "Beer", "sortOrder": 80, "active": 1 },
+  { "id": "baijiu", "nameZh": "中国白酒", "nameEn": "Baijiu", "sortOrder": 90, "active": 1 }
+]

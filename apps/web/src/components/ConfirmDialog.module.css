@@ -1,0 +1,50 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgb(22 32 28 / 45%);
+  display: grid;
+  place-items: center;
+  z-index: 50;
+  padding: var(--space-4);
+}
+
+.panel {
+  width: min(28rem, 100%);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-hover);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.danger {
+  background: var(--danger);
+  color: white;
+  border: 1px solid var(--danger);
+  border-radius: var(--radius);
+  padding: var(--control-pad-y) var(--control-pad-x);
+  cursor: pointer;
+}
+
+.danger:hover {
+  filter: brightness(0.92);
+}
+
+.cancel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: var(--control-pad-y) var(--control-pad-x);
+  cursor: pointer;
+}
+
+.cancel:hover {
+  background: var(--surface-2);
+}

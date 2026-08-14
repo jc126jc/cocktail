@@ -1,0 +1,155 @@
+.page {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(12rem, 16rem) minmax(0, 1fr);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.media {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: var(--space-3);
+}
+
+.media img {
+  width: 100%;
+  border-radius: var(--radius-sm);
+}
+
+.body {
+  min-width: 0;
+}
+
+.back {
+  display: inline-block;
+  margin: 0;
+  color: var(--accent-ink);
+  font-size: var(--text-sm);
+  text-decoration: none;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.header h1 {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.75rem;
+}
+
+.nameEn {
+  font-weight: 400;
+  font-size: var(--text-lg);
+  color: var(--ink-muted);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+  margin: 0;
+}
+
+.facts {
+  display: grid;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+}
+
+.factSep {
+  margin: 0 0.5em;
+}
+
+.section {
+  margin-top: var(--space-6);
+}
+
+.section h2 {
+  margin: 0 0 var(--space-3);
+}
+
+.table {
+  width: 100%;
+  max-width: 40rem;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid var(--line);
+  padding: var(--space-3) var(--space-4) var(--space-3) 0;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table th:last-child,
+.table td:last-child {
+  padding-right: 0;
+}
+
+.table th {
+  color: var(--ink-muted);
+  font-weight: 700;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.btn {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: var(--control-pad-y) var(--control-pad-x);
+  cursor: pointer;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--surface-2);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.steps {
+  margin: 0;
+  padding-left: 1.35rem;
+  list-style: decimal;
+  max-width: 40rem;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.steps li {
+  margin: 0;
+}
+
+.error {
+  margin-top: var(--space-4);
+  color: var(--danger);
+  font-size: var(--text-sm);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cocktail",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --stream --filter @cocktail/server --filter @cocktail/web dev",
+    "start": "pnpm --filter @cocktail/web build && pnpm --filter @cocktail/server start",
+    "db:migrate": "pnpm --filter @cocktail/db migrate",
+    "db:seed": "pnpm --filter @cocktail/db seed",
+    "db:accept": "pnpm --filter @cocktail/db accept",
+    "test": "pnpm -r --filter @cocktail/server --filter @cocktail/domain --filter @cocktail/shared test"
+  }
+}
